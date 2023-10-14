@@ -28,13 +28,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/index.js",
-              "src/assets/js/us-aea-en.js",
-              "src/assets/js/components/chart-01.js",
-              "src/assets/js/components/chart-02.js",
-              "src/assets/js/components/chart-03.js",
-              "src/assets/js/components/chart-04.js",
-              "src/assets/js/components/map-01.js"
+
             ]
           },
           "configurations": {
@@ -98,13 +92,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/index.js",
-              "src/assets/js/us-aea-en.js",
-              "src/assets/js/components/chart-01.js",
-              "src/assets/js/components/chart-02.js",
-              "src/assets/js/components/chart-03.js",
-              "src/assets/js/components/chart-04.js",
-              "src/assets/js/components/map-01.js"
             ]
           }
         }

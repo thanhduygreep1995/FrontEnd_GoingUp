@@ -74,15 +74,17 @@
             <p class="text-gray-600 mb-6 text-sm">Login if you are a returing customer</p>
 
     <form method="" action="">
-    <div class="space-y-4">
+    <div class="grid gap-6 mb-6 md:grid-cols-1">
          <div>
-              <label class="text-gray-600 mb-2 block" > Email Address <span class="text-primary">*</span> </label>
-              <input type="email" class="input-box" placeholder="example@mail.com" />
+              <label class="block mb-2 text-sm font-medium dark:text-white text-gray-600" > Email Address <span class="text-primary">*</span> </label>
+              <input type="email" class="input-box bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 
+              dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary" placeholder="example@mail.com" />
          </div>
 
          <div>
-              <label class="text-gray-600 mb-2 block" > Password <span class="text-primary">*</span> </label>
-              <input type="password" class="input-box" placeholder="Type Password" />
+              <label class="block mb-2 text-sm font-medium dark:text-white text-gray-600" > Password <span class="text-primary">*</span> </label>
+              <input type="password" class="input-box input-box bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 
+              dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary" placeholder="Type Password" />
          </div>
     </div>
 
@@ -118,7 +120,7 @@
          </a> 
     </div>
 
-    <p class="mt-4 text-gray-600 text-center ">Don't have an account? <a href="#" class="text-primary" >Register Now </a> </p>
+    <p class="mt-4 text-gray-600 text-center ">Don't have an account? <a href="" class="text-primary" routerLink="/register">Register Now </a> </p>
 
 
 

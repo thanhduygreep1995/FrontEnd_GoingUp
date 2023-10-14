@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,9 +16,17 @@ import { ChangepasswordComponent } from './changepassword/changepassword.compone
 import { OderCompleteComponent } from './oder-complete/oder-complete.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AdminComponent } from './backpage/admin/admin.component';
-import { AccountTableComponent } from './backpage/account.table/account.table.component';
-import { AccountModalComponent } from './backpage/account.modal/account.modal.component';
+import { AccountTableComponent } from './backpage/account-table/account.table.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AdminSidebarComponent } from './backpage/admin-sidebar/admin-sidebar.component';
+import { AdminHeaderComponent } from './backpage/admin-header/admin-header.component';
+
+import { CategoryTableComponent } from './backpage/category-table/category-table.component';
+import { AdminNavbarComponent } from './backpage/admin-navbar/admin-navbar.component';
+import { AdminMainContentComponent } from './backpage/admin-main-content/admin-main-content.component';
+import { AdminFooterComponent } from './backpage/admin-footer/admin-footer.component';
+import { AdminProductModalComponent } from './backpage/admin-product-modal/admin-product-modal.component';
+import { AdminProductTableComponent } from './backpage/admin-product-table/admin-product-table.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +45,14 @@ import { HttpClientModule } from '@angular/common/http';
     CheckoutComponent,
     AdminComponent,
     AccountTableComponent,
-    AccountModalComponent
+    AdminSidebarComponent,
+    AdminHeaderComponent,
+    CategoryTableComponent,
+    AdminNavbarComponent,
+    AdminMainContentComponent,
+    AdminFooterComponent,
+    AdminProductModalComponent,
+    AdminProductTableComponent
 
   ],
   imports: [
